@@ -1,0 +1,36 @@
+img {
+    height: 300px;
+    width: 600px;
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 0 250px
+} 
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top-right {
+    display: flex;
+    gap: 20px;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-bottom-left {
+    width: 500px
+}
+h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
