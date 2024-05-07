@@ -25,12 +25,20 @@ header {
 .header-top {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
 }
 
-.header-top-right {
+ul {
     display: flex;
-    gap: 20px;
+    gap: 30px;
+    list-style-type: none;
+}
+
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
 }
 
 .header-bottom {
